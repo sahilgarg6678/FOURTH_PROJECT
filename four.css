@@ -1,0 +1,259 @@
+body{
+    background: rgb(61, 8, 123)
+}
+
+.hidebox{
+       width: 350px;
+       height: 146px;
+       background-color: white;   
+       position: absolute;
+       margin-left: 793px;
+       border-radius: 10px;
+       margin-top: 2px;
+       opacity: 0.1;  
+}
+
+.hidebox1{
+        width: 475px;
+        height: 130px;
+        background-color: white;
+        margin-left: 727px;
+        border-radius: 10px;
+        margin-top: 70px;
+        opacity: 0.71;
+        
+}
+
+.upper{
+    height: 130px;
+    /* width: 100%; */
+    margin-top: -145px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clock{
+    background-image: url(./clock_logo.png);
+    width: 204px;
+    height: 77px;
+    margin-top: 15px;
+    margin-left:123px ;
+    background-size: cover;
+}
+
+.time-container{
+    border: 1px solid black;
+    width: 550px;
+    height: 137px;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 111px;
+    margin-top: -7px;
+}
+
+.box{
+    /* border: 1px solid black; */
+    width: 80px;
+    height: 90px;
+    margin: 20px;
+    text-align: center;
+    z-index: 0;
+}
+.boxes{
+    display: flex;
+}
+.box1{
+    background-image: url(./tt.png);
+    background-repeat: no-repeat;
+}
+#ten{
+    font-size: 35px;
+    color: blueviolet;
+    margin-top: 5px;
+}
+.hours{
+    font-size: 25px;
+    color: blueviolet;
+}
+.col{
+    font-size: 46px;
+    margin-left: 95px;
+    margin-top:-64px;
+}
+.time{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 6px;
+    margin-top: 50px;
+    z-index: 1;
+}
+
+
+.box2{
+    background-image: url(./tt.png);
+}
+#fortyfive{
+    font-size: 35px;
+    color: blueviolet;
+    margin-top: 5px;
+}
+.mins{
+    font-size: 25px;
+    color: blueviolet;
+}
+.co{
+    font-size: 46px;
+    margin-left: 95px;
+    margin-top:-64px;
+}
+
+
+
+.box3{
+    background-image: url(./tt.png);
+}
+#zero{
+    font-size: 35px;
+    color: blueviolet;
+    margin-top: 5px;
+}
+.secs{
+    font-size: 25px;
+    color: blueviolet;
+}
+
+
+.box4{
+    background-image: url(./hh.png);
+}
+#AM{
+    color: white;
+    font-size: 40px;
+    margin-top: 18px;
+}
+
+
+
+.timing{
+    border: 1px solid black;
+    width: 529px;
+    height: 314px;
+    border-radius: 10px;
+    margin-top: 67px;
+    margin-left: 130px;
+    background-color: white;
+}
+.sun{
+    background-image: url(./wake_up.png);
+    width: 34px;
+    height: 30px;
+    margin-left:30px ;
+    margin-top: 30px;
+}
+.waketext{
+    margin-left: 60px;
+    margin-top: 5px;
+    font-size: 18px;
+    position: absolute;
+}
+select{
+    margin-left: 226px;
+    width: 249px;
+    margin-top: -4px;
+    border-radius: 4px;
+    height: 36px;
+    position: absolute;
+    cursor: pointer;
+    letter-spacing: 2px;
+    
+}
+option{
+    width: 281px;
+    height: 45px;
+    padding: 14px 16px;
+    letter-spacing: 0.25px;
+    background-color:white;
+
+}
+.verline{
+    margin-left: 45px;
+    font-size: 35px;
+    margin-top: 8px;
+    opacity: 0.5;
+}
+.lunch{
+    background-image: url(./lunch_time.png);
+    width: 35px;
+    height: 37px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+.nap{
+    background-image: url(./nap_time.png);
+    width: 35px;
+    height: 35px;
+    margin-left: 30px;
+    margin-top: 8px;
+}
+.somelunch{
+    width: 550px;
+    height: 453px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 679px;
+    margin-top: -318px;
+}
+#wantlunch{
+    font-size: 30px;
+    color: blueviolet;
+    top: 35px;
+    left: 20px;
+    position: relative;
+}
+#lunchimage{
+    background-image: url(./download.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 430px;
+    height:407px;
+    margin-left: 110px;
+}
+.afternoon{
+    width: 530px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: pink;
+    margin-top: -120px;
+    margin-left: 131px;
+    font-size: 25px;
+    line-height: 32px;
+    /* opacity: 23%; */
+}
+/* #goodafternoon{
+    font-size: 25px;
+    color:white;
+    position:absolute;
+    margin-top: -50px;
+    margin-left: 150px;
+} */
+.partytime{
+    width: 262px;
+    height: 45px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 130px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    background-image: linear-gradient(to right ,blue ,pink 80% );
+}
+.party-text{
+    font-size: 25px;
+    color: white;
+    margin-left: 70px;
+    margin-top: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.partytime:hover{
+    background-image: linear-gradient(to right ,pink ,blue 80% );
+}
